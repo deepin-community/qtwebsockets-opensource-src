@@ -1,0 +1,9 @@
+doc/
+include/QtWebSockets/QtWebSocketsDepends
+lib/
+mkspecs/
+qml/Qt/WebSockets/qmldir
+qml/QtWebSockets/plugins.qmltypes
+qml/QtWebSockets/qmldir
+src/websockets/QtWebSockets.version.in
+test_root/

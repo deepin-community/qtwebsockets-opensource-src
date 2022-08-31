@@ -1,0 +1,9 @@
+Document: qtwebsockets5-doc-html
+Title: Qt 5 WebSockets module
+Author: The Qt Company Ltd
+Abstract: This is the HTML documentation for Qt 5 WebSockets
+Section: Programming/C++
+
+Format: HTML
+Index: /usr/share/doc/qtwebsockets5-doc-html/html/qtwebsockets/qtwebsockets-index.html
+Files: /usr/share/doc/qtwebsockets5-doc-html/html/qtwebsockets/*.html
