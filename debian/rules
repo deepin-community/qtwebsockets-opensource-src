@@ -22,7 +22,8 @@ override_dh_auto_test-arch:
 # mips64el: even if the code did not change from 5.11.2 (where it run fine) to
 # 5.11.3, a test is segfaulting. The issue might be somewhere else. Maybe bug #868745?
 # kfreebsd-*: see https://bugreports.qt.io/browse/QTBUG-41448
-ifneq (,$(filter $(DEB_HOST_ARCH),mips64el kfreebsd-amd64 kfreebsd-i386))
+# powerpc: see https://bugs.debian.org/1013169
+ifneq (,$(filter $(DEB_HOST_ARCH),mips64el kfreebsd-amd64 kfreebsd-i386 powerpc))
 	-LD_LIBRARY_PATH=$(CURDIR)/lib QML2_IMPORT_PATH=$(CURDIR)/test_root/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/qml \
 	TESTRUNNER='xvfb-run -a -s "-screen 0 1024x768x24 +extension RANDR +extension RENDER +extension GLX"' \
 		dh_auto_test --max-parallel=1 -- -Ctests/auto

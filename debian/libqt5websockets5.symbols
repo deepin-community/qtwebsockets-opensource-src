@@ -18,7 +18,7 @@ libQt5WebSockets.so.5 libqt5websockets5 #MINVER#
  Qt_5.8@Qt_5.8 5.9.0
  Qt_5.9@Qt_5.9 5.9.0
  Qt_5@Qt_5 5.6.0
- Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0
+ (symver)Qt_5_PRIVATE_API 0
  _ZN10QWebSocket11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0
  _ZN10QWebSocket11qt_metacastEPKc@Qt_5 5.6.0
  _ZN10QWebSocket12aboutToCloseEv@Qt_5 5.6.0
