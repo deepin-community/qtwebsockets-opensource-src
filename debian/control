@@ -5,17 +5,17 @@ Maintainer: Deepin Developer <deepin-dev@deepin.org>
 Uploaders: Deepin Packages Builder <packages@deepin.org>
 Build-Depends: debhelper-compat (= 13),
                pkg-kde-tools,
-               qml-module-qtquick2 (>= 5.15.7~),
-               qml-module-qttest (>= 5.15.7~),
-               qtbase5-private-dev (>= 5.15.7~),
-               qtdeclarative5-dev (>= 5.15.7~),
-               qtdeclarative5-private-dev (>= 5.15.7~),
+               qml-module-qtquick2 (>= 5.15.8~),
+               qml-module-qttest (>= 5.15.8~),
+               qtbase5-private-dev (>= 5.15.8~),
+               qtdeclarative5-dev (>= 5.15.8~),
+               qtdeclarative5-private-dev (>= 5.15.8~),
                xauth,
                xvfb
-Build-Depends-Indep: qdoc-qt5 (>= 5.15.7~) <!nodoc>,
-                     qhelpgenerator-qt5 (>= 5.15.7~) <!nodoc>,
-                     qtattributionsscanner-qt5 (>= 5.15.7~) <!nodoc>,
-                     qtbase5-doc-html (>= 5.15.7~) <!nodoc>
+Build-Depends-Indep: qdoc-qt5 (>= 5.15.8~) <!nodoc>,
+                     qhelpgenerator-qt5 (>= 5.15.8~) <!nodoc>,
+                     qtattributionsscanner-qt5 (>= 5.15.8~) <!nodoc>,
+                     qtbase5-doc-html (>= 5.15.8~) <!nodoc>
 Standards-Version: 4.6.0
 Homepage: https://doc.qt.io/qt-5/qtwebsockets-index.html
 
